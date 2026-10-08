@@ -1,0 +1,17 @@
+{
+  "name": "travemate-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TraveMate AI - AI-powered travel planning application",
+  "scripts": {
+    "install:all": "npm --prefix backend ci && npm --prefix frontend ci --legacy-peer-deps",
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start",
+    "check:backend": "node --check backend/server.js && node --check backend/controllers/auth.controller.js && node --check backend/controllers/trip.controller.js",
+    "check": "npm run check:backend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
