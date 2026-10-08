@@ -1003,22 +1003,6 @@ The following implementation areas correspond directly to the project's resume d
 
 ---
 
-## 📝 Attribution
-
-**Creator / portfolio owner:** Tanay Gupt
-
-This repository is a modified and rebranded version of an MIT-licensed project originally authored by **Vikram Kumavat**. The original MIT license is retained in [`LICENSE`](./LICENSE), and the modification/attribution details are documented in [`NOTICE.md`](./NOTICE.md).
-
-If this repository is redistributed, the applicable original license and copyright notice should remain included.
-
----
-
-## 📄 License
-
-This project is distributed under the terms of the MIT License. See [`LICENSE`](./LICENSE) for the complete license text.
-
----
-
 ## 👨‍💻 Author
 
 **Tanay Gupt**
